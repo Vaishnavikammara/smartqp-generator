@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: smartqp-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: smartqp_user
+      POSTGRES_PASSWORD: smartqp_secure_password_2026
+      POSTGRES_DB: smartqp_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smartqp_user -d smartqp_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartqp-app
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://smartqp_user:smartqp_secure_password_2026@db:5432/smartqp_db
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-2.5-flash}
+      - SIMILARITY_THRESHOLD=0.85
+      - SECRET_KEY=${SECRET_KEY:-production-smartqp-secret-key-change-in-prod}
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

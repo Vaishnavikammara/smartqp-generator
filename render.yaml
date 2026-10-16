@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: smartqp-generator
+    env: docker
+    plan: free
+    region: oregon
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: SIMILARITY_THRESHOLD
+        value: "0.85"

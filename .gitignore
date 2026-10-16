@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# SQLite / Database
+*.db
+*.sqlite3
+
+# Uploads and exports cache
+backend/uploads/*
+backend/exports/*
+!backend/uploads/.gitkeep
+!backend/exports/.gitkeep
+
+# System / IDE
+.vscode/
+.idea/
+.DS_Store
+bin/

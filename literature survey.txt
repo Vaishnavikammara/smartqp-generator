@@ -1,0 +1,57 @@
+1. N. Aisyah, D. Purwitasari, R. N. E. Anggraini, and S. D. Ravana, “eBloomDQG: Integrating Cognitive Level Alignment with 
+Encoder-Decoder Architecture for Deep Question Generation,” IEEE Access, 2026, doi: 10.1109/ACCESS.2026.3721532. 
+Link : https://doi.org/10.1109/ACCESS.2026.3721532
+2. D. Kim, S. Won Park, and J. Lee, “CQELedu: Design and Implementation of a LangChain and GPT-4o Mini-Based Web Application for Custom Question Generation and Error-Based Learning in Education,” IEEE Access, vol. 13, pp. 208932–208947, 2025, doi: 10.1109/ACCESS.2025.3639087. 
+Link: https://doi.org/10.1109/ACCESS.2025.3639087
+3. M. R. Anwar, S. Khalid, S. Alshahrani, H. S. M. Bilal, and M. Aldawsari, “MCQs Generation With Large Language Models: A Survey of Methodologies, Evolution, and Open Research Issues,” IEEE Access, vol. 14, pp. 10991–11018, 2026, doi: 10.1109/ACCESS.2026.3652006. 
+Link: https://doi.org/10.1109/ACCESS.2026.3652006
+4. S. W. Tan, C. P. Lee, K. M. Lim, and A. Alqahtani, “QARR-QGF: A Dual-Module Data Augmentation Framework for Enhanced Few-Shot Question Answering,” IEEE Access, vol. 13, pp. 160722–160736, 2025, doi: 10.1109/ACCESS.2025.3609472 
+Link: https://doi.org/10.1109/ACCESS.2025.3609472
+5. https://doi.org/10.1007/s13748-023-00295-9 - s N. Mulla, P. Gharpure, "Automatic Question Generation: 
+A Review of Methodologies, Datasets, Evaluation Metrics, and Applications," Progress in Artificial Intelligence, 
+vol. 12, pp. 1–32, 2023. 
+Link: https://link.springer.com/article/10.1007/s13748-023-00295-9
+6. N. Pradeesh, M. G. Thushara, K. Arun Krishna, V. Pranav, and S. Krishnamoorthy, “AI-Driven Personalized Learning and Remedial Recommendation Through Knowledge Concept-Centric Evaluation,” IEEE Access, vol. 13, pp. 207817–207837, 2025, doi: 10.1109/ACCESS.2025.3638427.
+Link: https://doi.org/10.1109/ACCESS.2025.3638427
+7. M. A. Ateeq, S. Tiun, H. Abdelhaq, and W. Kaur, “Question Answering on Lengthy Arabic Narrative Books,” IEEE Access, vol. 14, pp. 20734–20755, 2026, doi: 10.1109/ACCESS.2026.3661853 Link: 
+https://doi.org/10.1109/ACCESS.2026.3661853
+8. T. Zoughi, E. Arianyan, M. Mahmoudi, M. Aghdamifard, and M. Nikoogoftar, “Hybrid Layered Retrieval and Task-Aware Embeddings for Efficient Persian RAG Systems,” Journal of Web Engineering, vol. 25, no. 5, pp. 765–796, 2026, doi: 10.13052/jwe1540-9589.2552
+Link: https://doi.org/10.13052/jwe1540-9589.2552
+9. C. Woesle, L. Fischer-Brandies, and R. Buettner, “A Systematic Literature Review of Hallucinations in Large Language Models,” IEEE Access, vol. 13, pp. 148231–148253, 2025, doi: 10.1109/ACCESS.2025.3601206.  
+Link: https://doi.org/10.1109/ACCESS.2025.3601206
+10. R. C. Muñoz, B. B. Blanco, J. del Campo-Ávila, J. L. T. Rodriguez, "Teaching Compilers: Automatic Question Generation and Intelligent Assessment of Grammars' Parsing," IEEE Transactions on Learning Technologies, vol. 17, pp. 1734–1744, 2024. Link: DOI 10.1109/TLT.2024.3405565
+Link: https://doi.org/10.1109/TLT.2024.3405565
+11. S. Maity, A. Deroy, S. Sarkar, "Investigating Large Language Models for Prompt-Based Open-Ended Question Generation 
+in the Technical Domain," SN Computer Science, vol. 5, article 1128, 2024. 
+Link: https://doi.org/10.1007/s42979-024-03464-2
+12. "Knowledge Graph-Extended Retrieval Augmented Generation for Question Answering," Applied Intelligence, Springer, 2025. Link: https://link.springer.com/article/10.1007/s10489-025-06885-5 
+Link:https://doi.org/10.1007/s10489-025-06885-5
+13. "Ensemble Learning with RAG Model to Reduce Redundant Question Topics in Auto-Generated Exam Questions," Discover Computing, Springer, 2025. Link: https://link.springer.com/article/10.1007/s10791-025-09683-2
+https://doi.org/10.1007/s10791-025-09683-2
+14. C. C. So, C. H. Lee, D. Yang, A. W. K. Loh, and C. K. Sze, “Automatic Generation of High-Quality MCQs With LLMs for Artificial Intelligence Education,” IEEE Access, vol. 13, pp. 184332–184347, 2025, 
+doi: 10.1109/ACCESS.2025.3624820
+15. H. Sharma, R. Mathur, T. Chintala, S. Dhanalakshmi, R. Senthil, "An Effective Deep Learning Pipeline for Improved Question Classification into Bloom's Taxonomy's Domains," Education and Information Technologies, vol. 28, pp. 5105–5145, 2023. Link: https://link.springer.com/article/10.1007/s10639-022-11356-2 
+Link: https://doi.org/10.1007/s10639-022-11356-2
+16. M. Faseeh, M. A. Khan, N. Iqbal, F. Qayyum, A. Mehmood, J. Kim, "Enhancing User Experience on Q&A Platforms: Measuring Text Similarity Based on Hybrid CNN-LSTM Model for Efficient Duplicate Question Detection," IEEE Access, vol. 12, pp. 34512–34526, 2024. Link: DOI 10.1109/ACCESS.2024.3358422
+Link: https://doi.org/10.1109/ACCESS.2024.3358422
+17. D. de-Fitero-Dominguez, A. Garcia-Cabot, E. Garcia-Lopez, "Automated Multiple-Choice Question Generation in Spanish 
+Using Neural Language Models," Neural Computing and Applications, vol. 36, pp. 18223–18235, 2024. 
+Link: https://link.springer.com/article/10.1007/s00521-024-10076-7
+18. A. Moreno-Cediel, J.-A. del Hoyo-Gabaldon, E. Garcia-Lopez, A. Garcia-Cabot, D. de Fitero-Dominguez, 
+"Evaluating the Performance of Multilingual Models in Answer Extraction and Question Generation," 
+Scientific Reports, vol. 14, article 15477, 2024. 
+Link: https://www.nature.com/articles/s41598-024-66472-5
+19. B. Saha, U. Saha, M. Z. Malik, "QuIM-RAG: Advancing Retrieval-Augmented Generation With Inverted Question Matching for Enhanced QA Performance," IEEE Access, vol. 12, pp. 185401–185410, 2024, 
+doi: 10.1109/ACCESS.2024.3513155.
+20. C. N. Hang, C. W. Tan, P.-D. Yu, "MCQGen: A Large Language Model-Driven MCQ Generator for Personalized Learning," IEEE Access, vol. 12, pp. 102261–102273, 2024, doi: 10.1109/ACCESS.2024.3420709.
+21. M. Shoaib, G. Husnain, N. Sayed, Y. Y. Ghadi, M. Alajmi, A. Qahmash, "Automated Generation of Multiple-Choice Questions for Computer Science Education Using Conditional Generative Adversarial Networks," IEEE Access, vol. 13, pp. 16697–16715, 2025, 
+doi: 10.1109/ACCESS.2025.3530474.
+22. N. Scaria, S. Dharani Chenna, D. Subramani, "Automated Educational Question Generation at Different Bloom's Skill Levels Using Large Language Models: Strategies and Evaluation," in Artificial Intelligence in Education (AIED 2024), Lecture Notes in Computer Science, vol. 14830, Springer, 2024, 
+doi: 10.1007/978-3-031-64299-9_12.
+23. T. Firoozi, L. Daniels, V. Daniels, "An Augmented Intelligence System for Automated Quality Control and Feedback Generation of Multiple Choice Test Items," in Artificial Intelligence in Education (AIED 2025) — Posters, Workshops, Doctoral Consortium, Springer, 2025, 
+doi: 10.1007/978-3-031-99267-4_11.
+24. "Automated Question Paper Generator System," in Signal Processing, Telecommunication and Embedded Systems (ICMEET 2024), Springer, 2024, 
+doi: 10.1007/978-981-96-7253-0_2
+25. H. Oka, Y. Tan, T. Ishioka, K. Okada, "Systematic Control of Multiple-Choice Item Difficulty Through LLM-Based Distractor Generation," in Artificial Intelligence in Education (AIED 2025) — Posters, Workshops, Doctoral Consortium, Communications in Computer and Information Science, vol. 2590, Springer, 2025, 
+doi: 10.1007/978-3-031-99261-2_14
+

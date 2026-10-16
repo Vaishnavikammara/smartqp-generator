@@ -1,0 +1,129 @@
+{
+  "subject": "Database Management Systems",
+  "subject_code": "CS301",
+  "syllabus_excerpts": [
+    {
+      "module_number": 1,
+      "module_name": "Module 1 – Introduction to DBMS & Relational Model",
+      "text": "Database system concepts and architecture; Data models, schemas, and instances; Three-schema architecture and data independence; Entity-Relationship (ER) model: entities, attributes, relationships, cardinality ratios, and ER-to-relational mapping; Relational Model constraints: domain constraints, key constraints, entity integrity, and referential integrity."
+    },
+    {
+      "module_number": 2,
+      "module_name": "Module 2 – SQL & Relational Algebra",
+      "text": "Relational algebra operations: select, project, join, set operations, division; SQL: DDL, DML, DCL commands, complex queries, nested subqueries, views, triggers, and assertion constraints; Aggregate functions, group by and having clauses."
+    },
+    {
+      "module_number": 3,
+      "module_name": "Module 3 – Normalization & Schema Refinement",
+      "text": "Functional dependencies and inference rules (Armstrong axioms); Normal forms based on primary keys: 1NF, 2NF, 3NF; Boyce-Codd Normal Form (BCNF); Multivalued dependencies and 4NF; Lossless-join decomposition and dependency preservation properties."
+    },
+    {
+      "module_number": 4,
+      "module_name": "Module 4 – Transaction Management & Concurrency",
+      "text": "Transaction concepts, ACID properties, transaction state diagram; Serializability: conflict serializability and view serializability; Concurrency control protocols: two-phase locking (2PL) protocol, strict 2PL, timestamp ordering protocol; Deadlock detection, prevention, and recovery mechanisms."
+    },
+    {
+      "module_number": 5,
+      "module_name": "Module 5 – Storage, Indexing & Query Processing",
+      "text": "File organization, ordered indices, primary and secondary indices; B-Tree and B+ Tree index structures; Hashing techniques: static and dynamic hashing; Query evaluation steps, cost estimation, and basic query optimization heuristics."
+    }
+  ],
+  "labeled_questions": [
+    {
+      "id": "Q1",
+      "module": "Module 3 – Normalization & Schema Refinement",
+      "marks": 5,
+      "question_type": "descriptive",
+      "co": "CO3",
+      "bloom_level": "Understand",
+      "difficulty": "Medium",
+      "question_text": "Explain the advantages of database normalization with a suitable real-world example.",
+      "syllabus_relevance": true
+    },
+    {
+      "id": "Q2",
+      "module": "Module 3 – Normalization & Schema Refinement",
+      "marks": 5,
+      "question_type": "descriptive",
+      "co": "CO3",
+      "bloom_level": "Understand",
+      "difficulty": "Medium",
+      "question_text": "Describe why normalization is necessary in relational database design and illustrate with an example.",
+      "syllabus_relevance": true
+    },
+    {
+      "id": "Q3",
+      "module": "Module 4 – Transaction Management & Concurrency",
+      "marks": 10,
+      "question_type": "application-based",
+      "co": "CO4",
+      "bloom_level": "Apply",
+      "difficulty": "Hard",
+      "question_text": "Consider two concurrent transactions T1 and T2. Demonstrate how the Two-Phase Locking (2PL) protocol ensures conflict serializability.",
+      "syllabus_relevance": true
+    },
+    {
+      "id": "Q4",
+      "module": "Module 4 – Transaction Management & Concurrency",
+      "marks": 10,
+      "question_type": "application-based",
+      "co": "CO4",
+      "bloom_level": "Apply",
+      "difficulty": "Hard",
+      "question_text": "Illustrate with schedules how 2PL protocol guarantees serializability for concurrent transactions.",
+      "syllabus_relevance": true
+    },
+    {
+      "id": "Q5",
+      "module": "Module 2 – SQL & Relational Algebra",
+      "marks": 2,
+      "question_type": "short answer",
+      "co": "CO2",
+      "bloom_level": "Remember",
+      "difficulty": "Easy",
+      "question_text": "Differentiate between WHERE and HAVING clauses in SQL with brief syntax.",
+      "syllabus_relevance": true
+    },
+    {
+      "id": "Q6",
+      "module": "Module 5 – Storage, Indexing & Query Processing",
+      "marks": 5,
+      "question_type": "numerical",
+      "co": "CO5",
+      "bloom_level": "Apply",
+      "difficulty": "Medium",
+      "question_text": "Calculate the maximum number of record pointers in a B+ tree of order 4 and height 3.",
+      "syllabus_relevance": true
+    }
+  ],
+  "labeled_pairs": [
+    {
+      "pair_id": "P1",
+      "q1_id": "Q1",
+      "q2_id": "Q2",
+      "expected_duplicate": true,
+      "reason": "Both ask for advantages/necessity of normalization with an example in different wording."
+    },
+    {
+      "pair_id": "P2",
+      "q1_id": "Q3",
+      "q2_id": "Q4",
+      "expected_duplicate": true,
+      "reason": "Both ask how 2PL guarantees serializability for concurrent schedules."
+    },
+    {
+      "pair_id": "P3",
+      "q1_id": "Q1",
+      "q2_id": "Q3",
+      "expected_duplicate": false,
+      "reason": "Different modules: Normalization vs Concurrency Control."
+    },
+    {
+      "pair_id": "P4",
+      "q1_id": "Q5",
+      "q2_id": "Q6",
+      "expected_duplicate": false,
+      "reason": "Completely distinct topics: SQL syntax vs B+ tree calculation."
+    }
+  ]
+}
