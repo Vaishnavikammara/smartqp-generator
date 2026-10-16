@@ -1,7 +1,7 @@
 services:
   - type: web
     name: smartqp-generator
-    env: docker
+    runtime: docker
     plan: free
     region: oregon
     autoDeploy: true
